@@ -2,10 +2,17 @@
     border-radius: 50%;
     overflow: hidden;
     text-align: center;
-    max-width: fit-content;
-    max-height: fit-content
+    height:200px;
+    width:200px;
+    /* max-width: fit-content;
+    max-height: fit-content */
 }
 
+
+.profile-image img{
+    width: 100%;
+    scale: 0.95;
+}
 .profile-image[data-astro-cid-ru6grlqw]>img[data-astro-cid-ru6grlqw] {
     transform: translateY(0) scale(1.06)
 }
